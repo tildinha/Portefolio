@@ -5,6 +5,7 @@ ORDER BY 3,4
 
 SELECT *
 FROM Portefolio..CovidVaccinations
+WHERE continent is not null
 ORDER BY 3,4
 
  -- Selecting data we'll be using
